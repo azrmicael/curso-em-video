@@ -126,11 +126,11 @@ Obs.: Você não diz que programa em HTML e CSS, você desenvolve coisas nelas.
 
 Ao criar um novo arquivo com extensão .html no VSCode, é possível tem um código base para iniciarmos nossa escrita, e isso é feito de forma automática, como ilustrado a seguir:
 
-![Figura 1: Gerando código inicial em HTML5](.\img\html5-1.png "HTML5_01")
+![Figura 1: Gerando código inicial em HTML5](https://github.com/azrmicael/curso-em-video/blob/3af0520a3125851e09e7a1829223cf4674f8d162/javascript/notes/img/html5-1.png "HTML5-1")
 
 Selecionando a opção `html:5`, é gerado o seguinte código:
 
-![Figura 2: Código inicial em HTML5](.\img\html5-2.png "HTML5_02")
+![Figura 2: Código inicial em HTML5](https://github.com/azrmicael/curso-em-video/blob/3af0520a3125851e09e7a1829223cf4674f8d162/javascript/notes/img/html5-2.png "HTML5-2")
 
 #### Inserindo estilo
 
@@ -836,7 +836,7 @@ switch (expressão) {
 
 Hora do dia.
 
-![Figura 3: Script para dizer a hora do dia](.\img\time-day.png "hora_dia")
+![Figura 3: Script para dizer a hora do dia](https://github.com/azrmicael/curso-em-video/blob/3af0520a3125851e09e7a1829223cf4674f8d162/javascript/notes/img/time-day.png "Hora do dia")
 
 ---
 
@@ -844,7 +844,7 @@ Hora do dia.
 
 Verificador de Idade.
 
-![Figura 4: Script para verificar a idade e sexo](.\img\age-checker.png "verificador_idade")
+![Figura 4: Script para verificar a idade e sexo](https://github.com/azrmicael/curso-em-video/blob/3af0520a3125851e09e7a1829223cf4674f8d162/javascript/notes/img/age-checker.png "Verificador de idade")
 
 #### Questões que devo responder sobre os exercícios (parte 1-3)
 
@@ -950,7 +950,7 @@ for (var c = 1; c <= 10; c++) {
 Para iniciar o depurador, basta ir em *Run* >> *Start Debugging* (ou apertar F5):  
 Acessando a opção *Run and Debug* na barra lateral, é possível ver as variáveis, adicionar *breakpoints* e assistir itens específicos. Como ilustrado a seguir:
 
-![Figura 5: Run e Debug](.\img\debugging.png "Debugging")
+![Figura 5: Run e Debug](https://github.com/azrmicael/curso-em-video/blob/3af0520a3125851e09e7a1829223cf4674f8d162/javascript/notes/img/debugging.png "Debugging")
 
 #### Questões que devo responder sobre Aula 14
 
@@ -976,7 +976,7 @@ Código com a opção de contar, sendo fornecido pelo usuário: início, fim e p
 
 Minha versão:
 
-![Figura 6: Vamos Contar](.\img\let-s-count.png "counter")
+![Figura 6: Vamos Contar](https://github.com/azrmicael/curso-em-video/blob/3af0520a3125851e09e7a1829223cf4674f8d162/javascript/notes/img/let-s-count.png "Vamos contar")
 
 #### Tabuada
 
@@ -988,7 +988,7 @@ Código com tabuada
 
 Minha versão:
 
-![Figura 7: Tabuada](.\img\multiplication-table2.png "tabuada")
+![Figura 7: Tabuada](https://github.com/azrmicael/curso-em-video/blob/3af0520a3125851e09e7a1829223cf4674f8d162/javascript/notes/img/multiplication-table2.png "Tabuada")
 
 ---
 
@@ -1185,7 +1185,7 @@ Observações:
 
 Minha versão:
 
-![Figura 8: Analisador de Números](.\img\number-analyzer.png "analisador de números")
+![Figura 8: Analisador de Números](https://github.com/azrmicael/curso-em-video/blob/3af0520a3125851e09e7a1829223cf4674f8d162/javascript/notes/img/number-analyzer.png "Analisador de Números")
 
 #### Questões que devo responder sobre os exercícios (parte 7-8)
 
