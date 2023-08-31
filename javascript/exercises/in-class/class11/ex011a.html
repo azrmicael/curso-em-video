@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Você é brasileiro?</h1>
+    Onde você nasceu? <input type="text" name="local" id="local"> 
+    <input type="button" value="OK" onclick="determ()">
+    <div id="res">
+        
+    </div>
+    <script>
+        function determ() {
+            var loc = window.document.querySelector('input#local')
+            var país = loc.value.toLowerCase()
+            var res = window.document.querySelector('div#res')
+            if (país == 'brasil') {
+                res.innerHTML = `<p>Você é brasileiro!</p>`
+            } else {
+                res.innerHTML = `<p>Você não é brasileiro.</p>`
+            }
+            console.log(`país = ${país}`)
+        }
+    </script>
+</body>
+</html>

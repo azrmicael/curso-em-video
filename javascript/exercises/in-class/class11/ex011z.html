@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+    <h1>Eventos</h1>
+    <div id="div_teste">
+        Texto 1: <input type="text" name="text1" id="text1" class="log"><p>
+        Texto 2: <input type="text" name="text2" id="text2" class="log"><p>
+        Texto 3: <input type="text" name="text3" id="text3" class="log"><p>
+        <input type="button" value="Clique aqui" id="btnOk">
+    </div>
+
+    <script>
+        // Adiciona escuta para o evento keypress
+        addEventListener('keypress', logKey);
+        // Adiciona escuta
+        addEventListener('click', logClick);
+
+        function logKey(e) {
+            const element = document.activeElement;
+            //console.log('element.tagName: ' + element.tagName);
+            console.log('element.id: ' + element.id);
+            //console.log('element.className: ' + element.className);
+            console.log('e.code: ' + e.code);
+            // NumpadEnter, o código da tecla Enter do teclado numérico.
+            if (e.code == 'Enter' || e.code == 'NumpadEnter') {
+                if (element.className == 'log') {
+                    console.log('A tecla Enter foi acionada em um dos objetos da div_teste.');
+                    if (element.id == 'text1') {
+                        if (element.value.toLowerCase() == 'brasil') {
+                            console.log('Você é brasileiro')
+                        }
+                    }
+                    if (element.id == 'text2'){
+
+                    }
+                    if (element.id == 'text3') {
+
+                    }
+                    btnOk_Click();
+                }else{
+                    console.log('Você pressionou a tecla Enter.')
+                }
+            }
+        }
+
+        function logClick(e) {
+            const element = document.activeElement;
+            //console.log('element.tagName: ' + element.tagName);
+            //console.log('element.id: ' + element.id);
+            //console.log('element.className: ' + element.className);
+            console.log('e.code: ' + e.code);
+            if (element.id == 'btnOk') {
+                console.log(`Clicou no botão '${element.id}'`);
+                btnOk_Click();
+            }
+        }
+
+        function btnOk_Click() {
+            console.log('Chamou a função btnOk_Click');
+            return '';
+        }
+    </script>
+</body>
+</html>
